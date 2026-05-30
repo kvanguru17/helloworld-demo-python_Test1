@@ -80,3 +80,5 @@ jobs:
            minikube service my-service --url
            echo "------------------opening the service------------------"
            curl $(minikube service my-service --url)
+
+           #testing the changes 
